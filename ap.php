@@ -1,14 +1,14 @@
+//Adde the dev-2 code
+
 <?php
-class Car {
-    function Car() {
-        $this->model = "Tesla";
-    }
-}
+$name = "Alice"; // String
+$age = 30; // Integer
+$price = 19.99; // Float
+$isStudent = true; // Boolean
 
-// create an object
-$Lightning = new Car();
-
-// show object properties
-echo $Lightning->model;
+echo "Name: " . $name . "<br>";
+echo "Age: " . $age . "<br>";
+echo "Price: " . $price . "<br>";
+echo "Is Student: " . ($isStudent ? "Yes" : "No") . "<br>";
 ?>
 
